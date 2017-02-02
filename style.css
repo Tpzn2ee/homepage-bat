@@ -1,0 +1,117 @@
+/*
+#FAE7D1 top
+#F93C6B moon
+#C5C7BF wall
+#E4B5B5 dress
+#C4A8A3 ground
+#F6668D blood
+#DAE1D7 pole
+*/
+
+@font-face {
+	font-family: haxrcorp;
+	src:url('haxrcorp.ttf');
+}
+
+body {
+	background-color: #1b1b1b;
+	font-family: haxrcorp;
+	margin-top: 12%;
+}
+
+#time {
+	background-color: rgb(32, 32, 32);
+	font-size: 150px;
+	height: 110px;
+	line-height: 100px;
+	width: 250px;
+	text-align: center;
+	color: white;
+	box-shadow: 10px 10px 1px 3px rgba(0, 0, 0, 0.3);
+	margin: 0px auto 0px auto;
+}
+
+.wrapper {
+	height: 450px;
+	width: 1000px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: auto;
+}
+
+img {
+	height: 100%;
+}
+
+.image {
+	height: 100%;
+	box-shadow: 10px 10px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.links1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.reddit {
+	width: 450px;
+	height: 225px;
+	border: 0px solid #F6668D;
+	background-color: rgb(32, 32, 32);
+	box-shadow: 10px 10px 1px 3px rgba(0, 0, 0, 0.3);
+	font-size: 24px;
+	height: 50%;
+	padding: 20px;
+	box-sizing: border-box;
+
+}
+
+
+.links2 {
+	width: 225px;
+	height: 450px;
+	border: 0px solid #F6668D;
+	background-color: rgb(32, 32, 32);
+	display: flex;
+	flex-wrap: wrap;
+	box-shadow: 10px 10px 1px 3px rgba(0, 0, 0, 0.3);
+
+}
+
+.misc, .games{
+	font-size: 24px;
+	height: 50%;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.row {
+	margin-top: 25px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline; 
+}
+
+.misc, .misc a {
+	color: #FAE7D1;
+}
+
+.links1, .links1 a {
+	color: #DAE1D7;
+}
+
+.games, .games a {
+	color: #F6668D;
+}
+
+span {
+	font-size: 30px;
+	text-decoration: underline;
+}
