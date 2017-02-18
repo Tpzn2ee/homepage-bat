@@ -9,8 +9,8 @@
 */
 
 @font-face {
-	font-family: haxrcorp;
-	src:url('haxrcorp.ttf');
+	font-family:haxrcorp;
+	src:url('../font/haxrcorp.ttf');
 }
 
 body {
@@ -81,6 +81,7 @@ img {
 }
 
 .misc, .games{
+	width: 100%;
 	font-size: 24px;
 	height: 50%;
 	padding: 20px;
@@ -88,7 +89,8 @@ img {
 }
 
 .row {
-	margin-top: 25px;
+	line-height: 19px;
+	margin-top: 22px;
 }
 
 a {
@@ -113,5 +115,44 @@ a:hover {
 
 span {
 	font-size: 30px;
+	line-height: 24px;
 	text-decoration: underline;
+}
+
+.colors {
+	width: 57px;
+	height: 100%;
+	display: none;
+	flex-direction: column;
+	border: 0px solid #F6668D;
+	box-shadow: 10px 10px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.color1 {
+	height: 100%;
+	background-color: #FAE7D1;
+}
+.color2 {
+	height: 100%;
+	background-color: #F93C6B;
+}
+.color3 {
+	height: 100%;
+	background-color: #E4B5B5;
+}
+.color4 {
+	height: 100%;
+	background-color: #C5C7BF;
+}
+.color5 {
+	height: 100%;
+	background-color: #F6668D;
+}
+.color6 {
+	height: 100%;
+	background-color: #DAE1D7;
+}
+.color7 {
+	height: 100%;
+	background-color: #C4A8A3;
 }
